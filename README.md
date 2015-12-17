@@ -25,3 +25,22 @@ Similar to the [Rust community's](https://this-week-in-rust.org/), we want to ha
 ## Contribute
 
 Please help us out if you think the roundup could be better! [Open an issue!](https://github.com/ipfs/roundups/issues/new)
+
+## Process for writing 'IPFS Weekly' roundup
+
+- Open an issue for the new roundup, and fill it with the draft
+- Wait 24 hours for comments; digest and work them into the draft
+- Put the draft into a `.md` file inside of the `drafts` folder
+- Crosspost to ipfs/ipfs; if you need a core contributor to do this, get in touch with @jbenet
+- Crosspost to the blog; if you need a core contributor to do this, get in touch with @jbenet
+
+### Styleguide & Suggestions
+
+  - Use people's GitHub handles and not their real names. Example: @RichardLitt, and not "Richard Littauer".
+  - Try and include everyone who has made a PR or commented on an issue. Often, issue comments are _major, pivotal_ contributions, and those should be captured!
+  - Highlight, don't just summarize; a lot of work may be trivial, and higher signal is better noise.
+  - In general, err on the side of giving credit to everyone involved. When people do the lion's share, mention them first. (Or even something like "@whyrusleeping and several others ... " if relevant. In the case of a release, you can link to the changelog which credits individually... but don't sweat this.)
+  - Add a line somewhere, either end of first paragraph or end of email, requesting feedback on the Weekly with a link to the GitHub issue in the Weekly repo to capture that feedback.
+  - In general, try linking larger phrases instead of single words. easier to notice + click on links.
+  - In general, try highlighting _why_ something is cool.
+
