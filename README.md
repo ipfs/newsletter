@@ -8,6 +8,13 @@
 
 Prepare and store our weekly roundup emails.
 
+- [Roundups](#roundups)
+  - [Idea](#idea)
+  - [This repo](#this-repo)
+- [Contribute](#contribute)
+  - [Process for writing 'IPFS Weekly' roundup](#process-for-writing-ipfs-weekly-roundup)
+  - [Styleguide & Suggestions](#styleguide-&-suggestions)
+
 ## Idea
 
 Similar to the [Rust community's](https://this-week-in-rust.org/), we want to have a weekly roundup that talks about what was done in the past week by varous contributors. This will help:
@@ -22,7 +29,7 @@ Similar to the [Rust community's](https://this-week-in-rust.org/), we want to ha
 - Tracks issues related to the roundups in the [issues](https://github.com/ipfs/roundups/issues/);
 - Stores tools used to make the roundups
 
-## Contribute
+# Contribute
 
 Please help us out if you think the roundup could be better! [Open an issue!](https://github.com/ipfs/roundups/issues/new)
 
@@ -34,7 +41,7 @@ Please help us out if you think the roundup could be better! [Open an issue!](ht
 - Crosspost to ipfs/ipfs; if you need a core contributor to do this, get in touch with @jbenet
 - Crosspost to the blog; if you need a core contributor to do this, get in touch with @jbenet
 
-### Styleguide & Suggestions
+## Styleguide & Suggestions
 
   - Use people's GitHub handles and not their real names. Example: @RichardLitt, and not "Richard Littauer".
   - Try and include everyone who has made a PR or commented on an issue. Often, issue comments are _major, pivotal_ contributions, and those should be captured!
