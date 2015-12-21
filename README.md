@@ -35,9 +35,9 @@ Please help us out if you think the roundup could be better! [Open an issue!](ht
 
 ## Process for writing 'IPFS Weekly' roundup
 
-- Open an issue for the new roundup, and fill it with the draft
-- Wait 24 hours for comments; digest and work them into the draft
-- Put the draft into a `.md` file inside of the `drafts` folder
+- Open a Pull Request to create a new Markdown formatted file in the `drafts` folder.
+- Collect feedback/iterate on the draft, and merge it after 24/48 hours.
+- The person who merges the PR should then move the file out of the `drafts` folder and into the `roundups` folder.
 - Crosspost to ipfs/ipfs; if you need a core contributor to do this, get in touch with @jbenet
 - Crosspost to the blog; if you need a core contributor to do this, get in touch with @jbenet
 
