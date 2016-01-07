@@ -23,8 +23,9 @@ from pprint import pprint
 
 name_map = {
     ('Jeromy', 'jeromyj@gmail.com'): 'Jeromy Johnson',
-    'juan@benet.ai': 'Juan Benet'
-        }
+    'juan@benet.ai': 'Juan Benet',
+    'dignifiedquire@gmail.com': 'Friedel Ziegelmayer',
+    }
 
 def apply_name_map(name, email):
     "Attempt to convert a name+email into a name"
