@@ -25,6 +25,7 @@ name_map = {
     ('Jeromy', 'jeromyj@gmail.com'): 'Jeromy Johnson',
     'juan@benet.ai': 'Juan Benet',
     'dignifiedquire@gmail.com': 'Friedel Ziegelmayer',
+    'kubuxu@gmail.com': 'Jakub Sztandera',
     }
 
 def apply_name_map(name, email):
