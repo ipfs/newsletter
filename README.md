@@ -1,16 +1,15 @@
-# Roundups
+# Weekly
 
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
 [![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)
 
-![](https://cdn.rawgit.com/jbenet/contribute-ipfs-gif/master/img/contribute.gif)
+[![](https://cdn.rawgit.com/jbenet/contribute-ipfs-gif/master/img/contribute.gif)](https://github.com/ipfs/community/blob/master/contributing.md)
 
 Prepare and store our weekly roundup emails.
 
-- [Roundups](#roundups)
-  - [Idea](#idea)
-  - [This repo](#this-repo)
+- [Idea](#idea)
+- [This repo](#this-repo)
 - [Contribute](#contribute)
   - [Process for writing 'IPFS Weekly' roundup](#process-for-writing-ipfs-weekly-roundup)
   - [Styleguide & Suggestions](#styleguide-&-suggestions)
@@ -26,14 +25,14 @@ Similar to the [Rust community's](https://this-week-in-rust.org/), we want to ha
 ## This repo
 
 - Stores the drafts for past weekly roundups, posted elsewhere - the blog, email, and so on;
-- Tracks issues related to the roundups in the [issues](https://github.com/ipfs/roundups/issues/);
+- Tracks issues related to the roundups in the [issues](https://github.com/ipfs/weekly/issues/);
 - Stores tools used to make the roundups
 
-# Contribute
+## Contribute
 
-Please help us out if you think the roundup could be better! [Open an issue!](https://github.com/ipfs/roundups/issues/new)
+Please help us out if you think the roundup could be better! [Open an issue!](https://github.com/ipfs/weekly/issues/new)
 
-## Process for writing 'IPFS Weekly' roundup
+### Process for writing 'IPFS Weekly' roundup
 
 - Open a Pull Request to create a new Markdown formatted file in the `drafts` folder.
 - Collect feedback and iterate on the draft.
@@ -43,7 +42,7 @@ Please help us out if you think the roundup could be better! [Open an issue!](ht
 
 If you need a core contributor to do this, get in touch with [@RichardLitt](//github.com/RichardLitt).
 
-## Styleguide & Suggestions
+### Styleguide & Suggestions
 
 - Use people's GitHub handles and not their real names. Example: @RichardLitt, and not "Richard Littauer".
 - Try and include everyone who has made a PR or commented on an issue. Often, issue comments are _major, pivotal_ contributions, and those should be captured!
