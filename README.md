@@ -24,7 +24,7 @@ Similar to the [Rust community's](https://this-week-in-rust.org/), we want to ha
 
 ## This repo
 
-- Stores the drafts for past weekly roundups, posted elsewhere - the blog, email, and so on;
+- Stores the final versions for past weekly roundups, posted elsewhere - the blog, email, and so on;
 - Tracks issues related to the roundups in the [issues](https://github.com/ipfs/weekly/issues/);
 - Stores tools used to make the roundups
 
@@ -34,11 +34,10 @@ Please help us out if you think the roundup could be better! [Open an issue!](ht
 
 ### Process for writing 'IPFS Weekly' roundup
 
-- Open a Pull Request to create a new Markdown formatted file in the `drafts` folder.
+- Open a Pull Request to create a new Markdown formatted file in the `published` folder. The naming format should be as in this example: `002-2016-jan-5.md`, for the second weekly of the sprint starting January 5th in 2016.
 - Collect feedback and iterate on the draft.
 - Merge it after 24 hours.
-- Crosspost to ipfs/ipfs.
-- Crosspost to the blog.
+- Crosspost to ipfs/ipfs, the Blog, and Twitter.
 
 If you need a core contributor to do this, get in touch with [@RichardLitt](//github.com/RichardLitt).
 
