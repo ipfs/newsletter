@@ -39,10 +39,10 @@ def apply_name_map(name, email):
 
 
 
-def main(repo_path, start, days):
-
-    oneweek_ago = start - timedelta(days)
-    print "Getting all commits made between %s and %s" % (start.ctime(), oneweek_ago.ctime())
+def main(repo_path, start, end):
+    if not start < end:
+        raise ValueError("`start` must be before `end`", start, end)
+    print "Getting all commits made between %s and %s" % (start.isoformat(), end.isoformat())
 
 
     authors = set()
@@ -71,11 +71,11 @@ def main(repo_path, start, days):
 
         for commit in repo.walk(master_oid, pygit2.GIT_SORT_TIME):
             commit_time = datetime.fromtimestamp(commit.commit_time)
-            if commit_time >= oneweek_ago:
+            if commit_time >= start and commit_time <= end:
                 authors.add(apply_name_map(commit.author.name, commit.author.email))
 
 
-    print "\nContributors for this period (%s to %s):" % (oneweek_ago.ctime(), start.ctime())
+    print "\nContributors for this period (%s to %s):" % (start.isoformat(), end.isoformat())
     for a in sorted(authors):
         print "*", a
     print ""
@@ -84,15 +84,16 @@ def main(repo_path, start, days):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--end', default='')
-    parser.add_argument('--days', type=int, default=7, help="Default is 7 days")
+    parser.add_argument('--start')
+    parser.add_argument('--end')
     parser.add_argument('repo_dirs', help="Path to directories container all IPFS repos")
     args = parser.parse_args()
 
     start = None
+    end = None
+    if args.start:
+        start = dateparser.parse(args.start)
     if args.end:
-        start = dateparser.parse(args.end)
-    if start is None:
-        start = datetime.now()
-    main(args.repo_dirs, start, args.days)
+        end = dateparser.parse(args.end)
+    main(args.repo_dirs, start, end)
 
