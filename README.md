@@ -27,7 +27,7 @@ Similar to the [Rust community's](https://this-week-in-rust.org/), we want to ha
 The Weekly takes a _lot of work_. This work can best be done by being distributed. If you know of anything cool that happens in a given week, anything that other people might be excited about, add it to the weekly by adding a comment about it to the PR or Issue for that week's weekly.
 
 Here are the steps to do that:
- - Do something awesome, or see something cool.
+ - See something cool, or make something cool.
  - Go to the open PR for that week's weekly roundup.
  - Add a comment about the thing. Add a link, if possible.
  - Revel in the knowledge you are great.
