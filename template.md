@@ -22,10 +22,10 @@ Across the entire IPFS GitHub organization, the following people have committed 
 
 - __Contributors__
 
-This newsletter is also made by contributors. If you have cool things to share for the next weekly, drop a comment about it in the [next weekly sprint issue](//github.com/ipfs/pm/issues/83)! The more people mention items they want to see in the weekly there, the easier it is to make this and send it out.
+This newsletter is also a community effort. If you have cool things to share for the next weekly, drop a comment about it in the [next weekly sprint issue](__TODO__)! The more people mention items they want to see in the weekly there, the easier it is to make this and send it out.
 
 Thanks, and see you next week!
 
 - Richard Littauer and Andrew Chin
 
-_Submit feedback about this issue [here](//github.com/ipfs/weekly/issues/10), or send us [feedback about the IPFS Weekly in general](//github.com/ipfs/weekly/issues/7)._
+_Submit feedback about this issue [here](__TODO__), or send us [feedback about the IPFS Weekly in general](//github.com/ipfs/weekly/issues/7)._
