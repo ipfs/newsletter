@@ -56,7 +56,9 @@ If you need a core contributor to do this, get in touch with [@RichardLitt](//gi
 - Try and include everyone who has made a PR or commented on an issue. Often, issue comments are _major, pivotal_ contributions, and those should be captured!
 - Highlight, don't just summarize; a lot of work may be trivial, and higher signal is better noise.
 - In general, err on the side of giving credit to everyone involved. When people do the lion's share, mention them first. (Or even something like "@whyrusleeping and several others ... " if relevant. In the case of a release, you can link to the changelog which credits individually... but don't sweat this.)
-- Add a line somewhere, either end of first paragraph or end of email, requesting feedback on the Weekly with a link to the GitHub issue in the Weekly repo to capture that feedback.
 - In general, try linking larger phrases instead of single words. They're easier to notice and click on links.
-- In general, try highlighting _why_ something is cool.
+- In general, try highlighting _why_ something is cool. Call attention to things if
+    1. it is done and people should know about
+    2. there is a call to action -- opinions are needed.
+    3. it is specially useful to draw attention to something in the weekly.
 
