@@ -49,7 +49,9 @@ Also, please help us out if you think the roundup could be better! [Open an issu
   - Add files into published folder
   - Add using `-w` to ipfs
   - Use ipfs.io gateway to add files in
-- Merge it after sign off from pertinent people.
+- Merge it after:
+  - Sign off from pertinent people
+  - The travis build for the branch completes after each push.
 - Crosspost
   - [ipfs/ipfs#151](https://github.com/ipfs/ipfs/issues/151)
   - [the Blog](//github.com/ipfs/blog)
