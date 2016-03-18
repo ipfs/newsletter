@@ -45,8 +45,16 @@ Also, please help us out if you think the roundup could be better! [Open an issu
 
 - Open a Pull Request to create a new Markdown formatted file in the `published` folder. The naming format should be as in this example: `002-2016-jan-5.md`, for the second weekly of the sprint starting January 5th in 2016.
 - Collect feedback and iterate on the draft.
-- Merge it after 24 hours.
-- Crosspost to ipfs/ipfs, the Blog, and Twitter.
+- Images
+  - Add files into published folder
+  - Add using `-w` to ipfs
+  - Use ipfs.io gateway to add files in
+- Merge it after sign off from pertinent people.
+- Crosspost
+  - [ipfs/ipfs#151](https://github.com/ipfs/ipfs/issues/151)
+  - [the Blog](//github.com/ipfs/blog)
+  - The IPFS Weekly newsletter, using `md2html` npm package to generate HTML
+  - Twitter: post the blog link after it is merged and published.
 
 If you need a core contributor to do this, get in touch with [@RichardLitt](//github.com/RichardLitt).
 
