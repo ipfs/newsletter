@@ -16,6 +16,9 @@ Here are some of the highlights for the [__Date__](//github.com/ipfs/pm/issues/_
 ## Community
 
 
+## Press
+
+
 ## Contributors
 
 Across the entire IPFS GitHub organization, the following people have committed code, created issues, or made a comment on GitHub between __Date__ (noon, GMT) and __Date__. We're autogenerating this list using [this tool](//github.com/ipfs/weekly/blob/master/tools/get_commits.py) and [this other tool](//github.com/richardlitt/name-your-contributors), so please let us know if your name isn't here.
