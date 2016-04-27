@@ -37,7 +37,7 @@ def apply_name_map(name, email):
         return name_map[email]
     return name
 
-
+author_repo_map = {}
 
 def main(repo_path, start, end):
     if not start < end:
@@ -72,12 +72,14 @@ def main(repo_path, start, end):
         for commit in repo.walk(master_oid, pygit2.GIT_SORT_TIME):
             commit_time = datetime.fromtimestamp(commit.commit_time)
             if commit_time >= start and commit_time <= end:
-                authors.add(apply_name_map(commit.author.name, commit.author.email))
+                n = apply_name_map(commit.author.name, commit.author.email)
+                authors.add(n)
+                author_repo_map[n] = (repo_path.split(os.sep)[-2], commit.oid)
 
 
     print "\nContributors for this period (%s to %s):" % (start.isoformat(), end.isoformat())
     for a in sorted(authors):
-        print "*", a
+        print "*", a, "https://github.com/ipfs/%s/commit/%s" % author_repo_map[a]
     print ""
 
 
