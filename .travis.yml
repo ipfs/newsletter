@@ -4,4 +4,4 @@ rvm:
 before_script:
   - gem install awesome_bot
 script:
-  - awesome_bot README.md --white-list https://github.com/ipfs/weekly/issues/new,https://this-week-in-rust.org/
+  - awesome_bot *.md --white-list https://github.com/ipfs/newsletter/issues/new,https://this-week-in-rust.org/
