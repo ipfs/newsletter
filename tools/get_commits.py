@@ -20,6 +20,8 @@ import os.path
 import time
 from datetime import datetime,timedelta
 from pprint import pprint
+import urllib2
+import json
 
 name_map = {
     ('Jeromy', 'jeromyj@gmail.com'): 'Jeromy Johnson',
@@ -79,7 +81,15 @@ def main(repo_path, start, end):
 
     print "\nContributors for this period (%s to %s):" % (start.isoformat(), end.isoformat())
     for a in sorted(authors):
-        print "*", a, "https://github.com/ipfs/%s/commit/%s" % author_repo_map[a]
+        try:
+            f = urllib2.urlopen("https://api.github.com/repos/ipfs/%s/commits/%s" % author_repo_map[a])
+            js = json.load(f)
+            # example:
+            # @eminence (Andrew Chin)
+            # [@githubname](githuburl) (author_name)
+            print "* [@%s](%s) (%s)" % (js['author']['login'], js['author']['html_url'], js['commit']['author']['name'])
+        except:
+            print "*", a, "https://github.com/ipfs/%s/commit/%s" % author_repo_map[a]
     print ""
 
 
