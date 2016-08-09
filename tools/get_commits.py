@@ -68,15 +68,18 @@ def main(repo_path, start, end):
                     print "Error while fetching for", repo_path, remote.url
 
 
+        if repo.lookup_reference("refs/remotes/origin/master").target:
+            master_oid = repo.lookup_reference("refs/remotes/origin/master").target
 
-        master_oid = repo.lookup_reference("refs/remotes/origin/master").target
 
-        for commit in repo.walk(master_oid, pygit2.GIT_SORT_TIME):
-            commit_time = datetime.fromtimestamp(commit.commit_time)
-            if commit_time >= start and commit_time <= end:
-                n = apply_name_map(commit.author.name, commit.author.email)
-                authors.add(n)
-                author_repo_map[n] = (repo_path.split(os.sep)[-2], commit.oid)
+            for commit in repo.walk(master_oid, pygit2.GIT_SORT_TIME):
+                commit_time = datetime.fromtimestamp(commit.commit_time)
+                if commit_time >= start and commit_time <= end:
+                    n = apply_name_map(commit.author.name, commit.author.email)
+                    authors.add(n)
+                    author_repo_map[n] = (repo_path.split(os.sep)[-2], commit.oid)
+        else:
+            print "Repository empty", repo_path, remote.url
 
 
     print "\nContributors for this period (%s to %s):" % (start.isoformat(), end.isoformat())
