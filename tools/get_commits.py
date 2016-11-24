@@ -82,7 +82,11 @@ def main(repo_path, start, end):
 
 
 
-        master_oid = repo.lookup_reference("refs/remotes/origin/master").target
+        master_oid = None
+        try:
+            master_oid = repo.lookup_reference("refs/remotes/origin/master").target
+        except KeyError:
+            print "Skipping %r, it doesn't seem to have the refs we want"
 
         for commit in repo.walk(master_oid, pygit2.GIT_SORT_TIME):
             commit_time = datetime.fromtimestamp(commit.commit_time)
