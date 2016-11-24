@@ -46,6 +46,18 @@ def main(repo_path, start, end):
         raise ValueError("`start` must be before `end`", start, end)
     print "Getting all commits made between %s and %s" % (start.isoformat(), end.isoformat())
 
+    # get a full list of ipfs org repos
+    all_repos = json.load(urllib2.urlopen("https://api.github.com/orgs/ipfs/repos"))
+    for all_repo in all_repos:
+        if all_repo['fork']:
+            print "Skipping fork", all_repo['name']
+            continue
+        # does this repo exist locally?
+        local_repo_path = os.path.join(repo_path, all_repo['name'])
+        if not os.path.exists(local_repo_path):
+            print all_repo['name'], "does not exist locally!  It will now be cloned..."
+            pygit2.clone_repository(all_repo['clone_url'], local_repo_path)
+
 
     authors = set()
     repos = glob.glob(os.path.join(repo_path, "*", ".git"))
@@ -64,8 +76,9 @@ def main(repo_path, start, end):
                         time.sleep(0.1)
                         print "\r%d of %d    " % (transfer.received_objects, transfer.total_objects) ,
                     print "Fetch complete for", remote.url
-                except:
+                except Exception as ex:
                     print "Error while fetching for", repo_path, remote.url
+                    print ex
 
 
 
@@ -75,6 +88,9 @@ def main(repo_path, start, end):
             commit_time = datetime.fromtimestamp(commit.commit_time)
             if commit_time >= start and commit_time <= end:
                 n = apply_name_map(commit.author.name, commit.author.email)
+                #print "name:", repr(n), commit.oid
+                if type(n) == str:
+                    n = n.decode("utf-8")
                 authors.add(n)
                 author_repo_map[n] = (repo_path.split(os.sep)[-2], commit.oid)
 
