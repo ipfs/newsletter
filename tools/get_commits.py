@@ -121,7 +121,13 @@ if __name__ == "__main__":
     end = None
     if args.start:
         start = dateparser.parse(args.start)
+    else:
+        print "Error: Failed to parse start date %r" % args.start
+        sys.exit(1)
     if args.end:
         end = dateparser.parse(args.end)
+    else:
+        print "Error: Failed to parse end date %r" % args.end
+        sys.exit(1)
     main(args.repo_dirs, start, end)
 
