@@ -58,8 +58,6 @@ Also, please help us out if you think the roundup could be better! [Open an issu
   - The IPFS Tinyletter, using `md2html` npm package to generate HTML
   - Twitter: post the blog link after it is merged and published.
 
-If you need a core contributor to do this, get in touch with [@RichardLitt](//github.com/RichardLitt).
-
 ### Styleguide & Suggestions
 
 - Use people's GitHub handles and not their real names. Example: @RichardLitt, and not "Richard Littauer".
