@@ -14,6 +14,8 @@ Prepare and store our newsletter.
   - [Process for writing the Newsletter](#process-for-writing-the-newsletter)
   - [Styleguide & Suggestions](#styleguide-&-suggestions)
 
+### 📰 [Subscribe to the IPFS Newsletter here.](https://tinyletter.com/ipfsnewsletter) 📰
+
 ## Idea
 
 Similar to the [Rust community's](https://this-week-in-rust.org/), we want to have a newsletter that talks about what was done in the past week by varous contributors. This will help:
