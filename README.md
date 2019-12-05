@@ -14,7 +14,7 @@ Prepare and store our newsletter.
   - [Process for writing the Newsletter](#process-for-writing-the-newsletter)
   - [Styleguide & Suggestions](#styleguide-&-suggestions)
 
-### 📰 [Subscribe to the IPFS Newsletter here.](https://tinyletter.com/ipfsnewsletter) 📰
+### 📰 [Subscribe to the IPFS Newsletter here.](http://eepurl.com/gL2Pi5) 📰
 
 ## Idea
 
