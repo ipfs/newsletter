@@ -18,7 +18,7 @@ Prepare and store our newsletter.
 
 ## Idea
 
-Similar to the [Rust community's](https://this-week-in-rust.org/), we want to have a newsletter that talks about what was done in the past week by varous contributors. This will help:
+Similar to the [Rust community's](https://this-week-in-rust.org/), we want to have a newsletter that talks about what was done in the past week by various contributors. This will help:
 
 - Keep people in the loop about what is going on at Protocol Labs and on IPFS.
 - Tell active contributors when new versions or tools are available.
