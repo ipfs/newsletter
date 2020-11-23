@@ -9,7 +9,7 @@ Here’s what’s happening in the [InterPlanetary File System](https://ipfs.io/
 Want to help shape the 2021 IPFS project plan? We’re looking for your input on what’s important for IPFS to focus on next year! The proposal period runs through December 7. Details on how you can give input here: https://blog.ipfs.io/2020-11-19-community-rfp/
 
 ## Quote of the week
-https://twitter.com/jgarzik/status/1327453544853745666?s=20
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Neat that <a href="https://twitter.com/UniswapProtocol?ref_src=twsrc%5Etfw">@UniswapProtocol</a> website is published to IPFS, and continues to be available even if uniswap org has problems <a href="https://twitter.com/hashtag/decentralization?src=hash&amp;ref_src=twsrc%5Etfw">#decentralization</a> <a href="https://t.co/kfCXGObobG">https://t.co/kfCXGObobG</a></p>&mdash; Jeff Garzik (@jgarzik) <a href="https://twitter.com/jgarzik/status/1327453544853745666?ref_src=twsrc%5Etfw">November 14, 2020</a></blockquote> 
 
 ## Feature
 [How to store signed and encrypted data on IPFS](https://blog.ceramic.network/how-to-store-signed-and-encrypted-data-on-ipfs/)
