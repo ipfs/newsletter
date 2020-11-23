@@ -5,6 +5,9 @@ Here’s what’s happening in the [InterPlanetary File System](https://ipfs.io/
 ## TOP STORY
 [The New Data. IPLD: The data layer of a decentralized… | by Mikeal Rogers | Nov, 2020 | Medium](https://medium.com/@mikeal/the-new-data-d6b5e392da43)
 
+## IPFS in 2021 – Call for Proposals
+Want to help shape the 2021 IPFS project plan? We’re looking for your input on what’s important for IPFS to focus on next year! The proposal period runs through December 7. Details on how you can give input here: https://blog.ipfs.io/2020-11-19-community-rfp/
+
 ## Quote of the week
 https://twitter.com/jgarzik/status/1327453544853745666?s=20
 
@@ -15,6 +18,7 @@ https://twitter.com/jgarzik/status/1327453544853745666?s=20
 * [[Space Alpha: Where we are, and What is Next - Space Blog](https://blog.space.storage/posts/space-alpha-where-we-are-what-is-next)
 * https://twitter.com/0xKeychain/status/1328395813882572803?s=20
 * https://twitter.com/FISSIONcodes/status/1328373187218862081?s=20
+* https://twitter.com/dzesika/status/1329828534362148866?s=20
 
 ## People are building the coolest things with IPFS
 [The Smart NFT. Smart NFTs are creating a revolution in… | by The Writer’s Lounge | PhantasticPhantasma | Nov, 2020 | Medium](https://medium.com/phantasticphantasma/the-smart-nft-3a1ff1c03328)
@@ -30,6 +34,10 @@ https://www.orchid.com/podcast/episode-24-brad-kam
 [Providing and plotting data with free services is easy | by Carsten Sandtner | Nov, 2020 | Towards Data Science](https://towardsdatascience.com/providing-and-plotting-data-with-free-services-is-easy-c3176f4323f7)
 
 https://twitter.com/Superfluid_HQ/status/1328337039423627266?s=20
+
+https://link.springer.com/article/10.1007/s00521-020-05443-z?error=cookies_not_supported&code=4f6ac07a-e9e8-41fc-8afa-98f6ee627845
+
+https://mintable.medium.com/one-week-left-until-launch-mintable-v2-0-dev-update-6-9dc82bd72fc8
 
 ## Video of the week
 
