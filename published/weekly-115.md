@@ -2,52 +2,56 @@
 
 Here’s what’s happening in the [InterPlanetary File System](https://ipfs.io/) galaxy! 🚀
 
-## TOP STORY
-[The New Data. IPLD: The data layer of a decentralized… | by Mikeal Rogers | Nov, 2020 | Medium](https://medium.com/@mikeal/the-new-data-d6b5e392da43)
+## IPLD: The data layer of a decentralized web
+What’s going on in the world of IPLD? There have been loads of improvements in the past months, and luckily project lead Mikeal Rogers has shared an update from the land of InterPlanetary Linked Data and structures.
 
-## IPFS in 2021 – Call for Proposals
-Want to help shape the 2021 IPFS project plan? We’re looking for your input on what’s important for IPFS to focus on next year! The proposal period runs through December 7. Details on how you can give input here: https://blog.ipfs.io/2020-11-19-community-rfp/
+[Read more](https://medium.com/@mikeal/the-new-data-d6b5e392da43)
+
+## CFP: help us shape IPFS in 2021 
+Want to help shape the 2021 IPFS project plan? We’re looking for your input on what’s important for IPFS to focus on next year! The proposal period runs through Monday, December 7. Read the full announcement for more details on how you can give your input.
+
+[Read more](https://blog.ipfs.io/2020-11-19-community-rfp/)
 
 ## Quote of the week
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Neat that <a href="https://twitter.com/UniswapProtocol?ref_src=twsrc%5Etfw">@UniswapProtocol</a> website is published to IPFS, and continues to be available even if uniswap org has problems <a href="https://twitter.com/hashtag/decentralization?src=hash&amp;ref_src=twsrc%5Etfw">#decentralization</a> <a href="https://t.co/kfCXGObobG">https://t.co/kfCXGObobG</a></p>&mdash; Jeff Garzik (@jgarzik) <a href="https://twitter.com/jgarzik/status/1327453544853745666?ref_src=twsrc%5Etfw">November 14, 2020</a></blockquote> 
 
-## Feature
-[How to store signed and encrypted data on IPFS](https://blog.ceramic.network/how-to-store-signed-and-encrypted-data-on-ipfs/)
+## How to store signed and encrypted data on IPFS
+Recently, Ceramic Engineering has gifted us with a brilliant guide to storing signed and encrypted data directly in IPFS using two new standards: DAG-jose and EIP-2844. Learn all about how to create a signed data structure with ease.
+
+[Read more](https://blog.ceramic.network/how-to-store-signed-and-encrypted-data-on-ipfs/)
 
 ## Brand new on IPFS
-* [[Space Alpha: Where we are, and What is Next - Space Blog](https://blog.space.storage/posts/space-alpha-where-we-are-what-is-next)
-* https://twitter.com/0xKeychain/status/1328395813882572803?s=20
-* https://twitter.com/FISSIONcodes/status/1328373187218862081?s=20
-* https://twitter.com/dzesika/status/1329828534362148866?s=20
+* [Space has reached its Alpha release](https://blog.space.storage/posts/space-alpha-where-we-are-what-is-next), and shares where the project is at, and what is next.
+* [IPFS Companion v2.16.0](https://github.com/ipfs-shipyard/ipfs-companion/releases/tag/v2.16.0) is here! This release has spiffy UI enhancements plus a few new features.
+* [FISSION asks](https://talk.fission.codes/t/application-for-iot/1186/2), does anyone have pointers to existing IPFS + IoT projects or experiments?
+* Keychain uses IPFS to store all the data needed to keep your NFTs on [minty.keychain.me](https://minty.keychain.me).
 
 ## People are building the coolest things with IPFS
-[The Smart NFT. Smart NFTs are creating a revolution in… | by The Writer’s Lounge | PhantasticPhantasma | Nov, 2020 | Medium](https://medium.com/phantasticphantasma/the-smart-nft-3a1ff1c03328)
+[Smart NFTs](https://medium.com/phantasticphantasma/the-smart-nft-3a1ff1c03328) are creating a revolution in content distribution.
 
-[Creating a Traceable Product Story in Manufacturing Supply Chains Using IPFS](http://ltu.diva-portal.org/smash/record.jsf?aq2=%5B%5B%5D%5D&c=4&af=%5B%5D&searchType=LIST_LATEST&sortOrder2=title_sort_asc&query=&language=en&pid=diva2%3A1501699&aq=%5B%5B%5D%5D&sf=all&aqe=%5B%5D&sortOrder=author_sort_asc&onlyFullText=false&noOfRows=50&dswid=-5208)
+PAPER: Creating a [Traceable Product Story in Manufacturing Supply Chains](http://ltu.diva-portal.org/smash/record.jsf?aq2=%5B%5B%5D%5D&c=4&af=%5B%5D&searchType=LIST_LATEST&sortOrder2=title_sort_asc&query=&language=en&pid=diva2%3A1501699&aq=%5B%5B%5D%5D&sf=all&aqe=%5B%5D&sortOrder=author_sort_asc&onlyFullText=false&noOfRows=50&dswid=-5208) using IPFS
 
-https://twitter.com/achatainga/status/1329151805465489409?s=20
+DEMO: This is what my [future IPFS-hosted website](https://twitter.com/achatainga/status/1329151805465489409?s=20) made with GatsbyJS and ReactJS will look like.
 
-https://www.orchid.com/podcast/episode-24-brad-kam
+Go down the rabbit hole with Brad Kam, Co-founder of Unstoppable Domains on Episode 24 of [Follow The White Rabbit](https://www.orchid.com/podcast/episode-24-brad-kam). 
 
-[Video on Filecoin: exploring the Voodfy project built with Powergate](https://blog.textile.io/video-on-filecoin-using-voodfy-project-and-powergate/)
+[Putting video on Filecoin](https://blog.textile.io/video-on-filecoin-using-voodfy-project-and-powergate/): exploring the Voodfy project built with Powergate.
 
-[Providing and plotting data with free services is easy | by Carsten Sandtner | Nov, 2020 | Towards Data Science](https://towardsdatascience.com/providing-and-plotting-data-with-free-services-is-easy-c3176f4323f7)
+[Providing and plotting data](https://towardsdatascience.com/providing-and-plotting-data-with-free-services-is-easy-c3176f4323f7) with free services is easy, made possible by IPFS.
 
-https://twitter.com/Superfluid_HQ/status/1328337039423627266?s=20
+Check out the creative ways folks are using IPFS in the [Superfluid community](https://medium.com/superfluid-blog/superfluid-hacks-1-0-2945b21fd41e).
 
-https://link.springer.com/article/10.1007/s00521-020-05443-z?error=cookies_not_supported&code=4f6ac07a-e9e8-41fc-8afa-98f6ee627845
+PAPER: Emerging applications of [Deep Learning and Spiking Artificial Neural Networks](https://link.springer.com/article/10.1007/s00521-020-05443-z?error=cookies_not_supported&code=4f6ac07a-e9e8-41fc-8afa-98f6ee627845)
 
-https://mintable.medium.com/one-week-left-until-launch-mintable-v2-0-dev-update-6-9dc82bd72fc8
+Mintable will soon be [launching v2.0](https://mintable.medium.com/one-week-left-until-launch-mintable-v2-0-dev-update-6-9dc82bd72fc8) with features that will push the NFT ecosystem forward.
 
 ## Video of the week
 
-[Hold for Nov meetup vid]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1Tf4Fd6cYdg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Learn about the IPFS Pinning Services in this recent talk from Filecoin Liftoff week by Marcin “Lidel” Rataj. 
 
 ## Job hunting? Work on IPFS!
-
-[Support Engineer, Full-Stack](https://textile.breezy.hr/p/b4aada03ce62-support-engineer-full-stack-contractor): As a support engineer, you’ll write code examples, documentation, build applications, and support our growing community of developers. Contract role, Textile, Remote.
-
-[IPFS Engineer](https://authenticjobs.com/job/3315/arbol-inc-ipfs-engineer): This role is for someone with a deep understanding of IPFS and its ecosystem, and a passion for open source and scientific projects. Ideally they would have contributed to the IPFS project itself. Experience with Docker is also a plus. Arbol, Remote or NYC.
 
 [Technical Writer](https://www.notion.so/Hiring-Technical-Writer-bc6a543f6bea40f28c06abfbfd810ea4): who can primarily create high-quality technical content, but has some other adjacent skills as well in the form of graphic design and/or video editing. Contract, Remote.
 
